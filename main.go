@@ -112,5 +112,10 @@ func main() {
 	problem20 := problems.IsPerfectSquare(16)
 	fmt.Println(problem20)
 
+	/* 23. Count Special Char */
+
+	problem23 := problems.CountTotalSpecialChar("AaBb")
+	fmt.Println(problem23)
+
 	fmt.Println("BASIC PROBLEMS SOLVING IN GO")
 }
